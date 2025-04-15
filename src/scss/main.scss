@@ -27,13 +27,10 @@ h1 {color: white;
     font-size: 30px;
     margin-top: 10px;
     text-align: center;
-    
-    
+
 }
 
-.flechadown {
-    
-}
+
 
 h2 {
     width: 290px;
@@ -97,7 +94,11 @@ button {
   border-radius: 22.5px;
   border: solid 2px #f26002;
   margin-left: 30%;
+  color: orangered;
+  font-size: 19px;
+  
 }
+
 .divdos {
     width: 320px;
     height: 624px;
@@ -112,6 +113,9 @@ button {
     font-size: center;
     font-size: 25px;
     margin-left: 3%;
+    display: flex;
+    justify-content: center;
+
 }
 .ut {
     width: 184px;
@@ -128,6 +132,8 @@ button {
   text-align: center;
   color: #000;
   margin-left: 30%;
+  display: flex;
+  
 }
 .lorem {
     width: 180px;
@@ -159,8 +165,7 @@ button {
   letter-spacing: normal;
   text-align: center;
   color: #000;
-  margin-left: 26%;
- 
+  margin-left: 20%;
 }
 .mauri{
     width: 180px;
@@ -178,6 +183,8 @@ button {
   color: #000;
   margin-left: 20%;
   font-size: 16px;
+  margin-top: 10%;
+
 }
 .morbi {
     width: 184px;
@@ -193,8 +200,10 @@ button {
   letter-spacing: normal;
   text-align: center;
   color: #000;
-  margin-left: 27%;
-  padding-top: 40px;
+  margin-left: 20%;
+  padding-top: 60px;
+
+  
 }
 .ali {
     width: 180px;
@@ -212,6 +221,7 @@ button {
   color: #000;
   font-size: 16px;
   margin-left: 20%;
+  margin-top: 10%;
 }
 .more {
     width: 184px;
@@ -222,7 +232,10 @@ button {
   background-color: #f26002;
   color: white;
   margin-left: 20%;
-  margin-top: 15%;
+  margin-top: 10%;
+  font-size: 18px;
+  
+  
 }
 .foo {
     width: 320px;
@@ -235,6 +248,9 @@ button {
     margin-top: 0%;
     
 }
+
+
+  
 .arboeve {
     color: white;
     margin-left: 30%;
