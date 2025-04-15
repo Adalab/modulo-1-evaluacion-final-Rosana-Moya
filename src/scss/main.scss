@@ -1,5 +1,11 @@
-* {  
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {  
     margin: 0%;
+    
     
 }
 
@@ -7,7 +13,7 @@
     background-image: url(../../public/images/cover.jpeg);
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 100vh;
 }
 
 h1 {color: white;
@@ -27,4 +33,131 @@ h1 {color: white;
 
 .flechadown {
     
+}
+
+h2 {
+    width: 290px;
+  height: 60px;
+  flex-grow: 0;
+  margin: 23px 0 20px;
+  font-family: RobotoSlab;
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-left: 30%;
+  margin-top: 0;
+}
+
+.insom {
+    width: 88px;
+  height: 30px;
+  flex-grow: 0;
+  margin: 0 202px 73px 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8ccbea;
+  margin-left: 30%;
+  
+  margin-bottom: 0%;
+}
+
+.donec {
+    width: 290px;
+  height: 120px;
+  flex-grow: 0;
+  margin: 20px 0 26px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4a4a4a;
+  margin-left: 30%;
+}
+
+button {
+    width: 76px;
+  height: 45px;
+  flex-grow: 0;
+  margin: 0 0 10px;
+  border-radius: 22.5px;
+  border: solid 2px #f26002;
+  margin-left: 30%;
+}
+.divdos {
+    width: 320px;
+    height: 624px;
+    flex-grow: 0;
+    margin: 400.9px 0 0;
+    padding: 29px 15px 50px;
+    margin-left: 30%;
+    margin-top: 0;
+    background-color: rgb(207, 227, 240)
+}
+.reas {
+    font-size: center;
+    font-size: 25px;
+    margin-left: 3%;
+}
+.ut {
+    width: 184px;
+  height: 30px;
+  flex-grow: 0;
+  margin: 0 0 1px;
+  font-family: RobotoSlab;
+  font-size: 19px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  margin-left: 25%;
+}
+.lorem {
+    width: 180px;
+  height: 63px;
+  flex-grow: 0;
+  margin: 1px 2px 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  margin-left: 18%;
+}
+.cur {
+    width: 184px;
+  height: 30px;
+  flex-grow: 0;
+  margin: 0 0 1px;
+  font-family: RobotoSlab;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  margin-left: 20%;
 }
