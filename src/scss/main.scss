@@ -223,7 +223,7 @@ p {
 .foop1 {
     padding-top: 50px;
     padding-left: 30px;
-    color: #f0ebe5;
+    color: #b6c8c9;
     font-weight: 600;
     font-size: 30px;
     justify-content: center;
@@ -235,7 +235,7 @@ p {
 
 .ul1 a {
     list-style-type: none;
-    color: #f0ebe5;
+    color: #b6c8c9;
      text-decoration: none;
      
 }
@@ -243,7 +243,7 @@ p {
 .foop2 {
     padding-top: 50px;
     padding-left: 30px;
-    color: #f0ebe5;
+    color: #b6c8c9;
     font-weight: 600;
     font-size: 30px;
 }
@@ -254,14 +254,14 @@ p {
 
 .ul2 a {
     list-style-type: none;
-    color: #f0ebe5;
+    color: #b6c8c9;
      text-decoration: none;
 }
 
 .foop3 {
     padding-top: 50px;
     padding-left: 40px;
-    color: #f0ebe5;
+    color: #b6c8c9;
     font-weight: 600;
     font-size: 30px;
 }
@@ -280,6 +280,11 @@ p {
     display: flex;
     gap: 10px;
     padding-left: 50px;
+    color: #b6c8c9;
+}
+
+.lin .insta .twi {
+    color: #b6c8c9;
 }
 
 li {
@@ -297,12 +302,31 @@ li {
 
  @media screen and (min-width: 900px) {
 
+.header {
+    height: 100px;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
     .h1 {
     color: #0c474b;
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 20px;
-
+    padding-right: 40px;
+    font-size: 30px;
+   
 }
+
+  .mod1 {
+    height: 500px;
+  }
+
+  .mod1a {
+    justify-content: flex-start;
+}
+
 
      .menu-link {
     display: block;
@@ -317,7 +341,7 @@ li {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px 300px;
     grid-auto-rows: 150px;
-    gap: 1px;
+    gap: 10px;
 }
 
 .open {
@@ -331,12 +355,13 @@ li {
     font-weight: 00;
     color: #0c474b;
     grid-column: 1/4;
-    padding-top: 80px;
+    padding-top: 100px;
+    
 }
 
 .imgtable {
     grid-column: 1/2;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .imgpark {
@@ -345,19 +370,38 @@ li {
 
   .footer {
     background-color: #0c474b;
-    height: 400px;
+    height: 450px;
     color: #f0ebe5;
      display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
-    gap: 10px;
+    gap: 8px;
     flex-wrap: wrap;
     
  }
+
+ .foop1 {
+    padding-top: 0;
+ }
+  
+ .foop2 {
+    padding-top: 0;
+ }
+
+ .foop3 {
+    padding-top: 0;
+ }
+  
   
 }
 
  @media screen and (min-width: 1728px) {
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
 
 .mod1 {
     height: 1200px;
@@ -369,12 +413,14 @@ li {
     display: flex;
    gap: 200px;
    padding-top: 100px;
+   
 }
 
 .logo {
     width: auto;
     height: 200px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    padding-top: 30px;
     
 }
 
@@ -399,7 +445,8 @@ li {
   .h1 {
     font-size: 30px;
     padding-right: 1000px;
-    padding-top: 450px;
+    padding-top: 300px;
+    
   }
 
  .mod2 {
@@ -429,6 +476,7 @@ li {
 
  .footer {
     justify-content: space-around;
+    font-weight: 200;
  }
 
  }
