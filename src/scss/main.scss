@@ -14,7 +14,7 @@ body {
        background-size: cover;
        background-position: center;
        background-repeat: no-repeat;
-       height: 300px;
+       height: 400px;
        display: flex;
        align-items: center;
     flex-direction: column;
@@ -53,12 +53,8 @@ body {
 }
 
 .logo{
-    
-  justify-content: center;
-}
-
-.mod1a {
    
+  justify-content: center;
 }
 
 .h1 {
@@ -208,8 +204,7 @@ p {
 
 .footer {
     background-color: #0c474b;
-    height: 800px;
-    color: #f0ebe5;
+    height: 700px;
      display: flex;
     align-items: center;
     flex-direction: column;
@@ -217,6 +212,7 @@ p {
     flex-wrap: wrap;
     padding-left: 20px;
     padding-right: 20px;
+    color: #b6c8c9;
     
 }
 
@@ -231,6 +227,7 @@ p {
 
 .ul1 {
   list-style: none;
+  
 }
 
 .ul1 a {
@@ -320,11 +317,13 @@ li {
 }
 
   .mod1 {
-    height: 500px;
+    height: 700px;
   }
 
   .mod1a {
     justify-content: flex-start;
+    padding-right: 90px;
+    padding-top: 100px;
 }
 
 
@@ -339,7 +338,7 @@ li {
     height: 650px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 300px;
+    // grid-template-rows: 300px 300px 300px;
     grid-auto-rows: 150px;
     gap: 10px;
 }
@@ -361,11 +360,12 @@ li {
 
 .imgtable {
     grid-column: 1/2;
-    padding-left: 40px;
+    padding-left: 80px;
 }
 
 .imgpark {
     grid-column: 3/4;
+    padding-right: 40px;
 }
 
   .footer {
@@ -452,7 +452,6 @@ li {
  .mod2 {
     background-color: #f0ebe5;
     padding-top: 40px;
-    
     height: 700px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -473,6 +472,51 @@ li {
  .open {
     padding-top: 0px;
  }
+
+.whitewc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: auto;
+    
+}
+
+ .containerwhite,
+  .containerwc {
+    width: 50%;
+    height: auto;
+  }
+
+  .containerwhite {
+  flex: 1;
+  padding: 80px; 
+  padding-top: 100px;
+  background-color: #f0ebe5;
+  height: auto;
+  color: #0c474b;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.p1 {
+    font-size: 40px;
+    
+}
+.p2 {
+    font-size: 30px;
+   
+}
+
+.containerwc {
+  flex: 1;
+}
+
+  .wc {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
  .footer {
     justify-content: space-around;
